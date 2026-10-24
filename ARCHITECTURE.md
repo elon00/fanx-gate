@@ -1,10 +1,12 @@
-﻿# fanx-gate (}ticker) // PRODUCTION ARCHITECTURE BLUEPRINT
+﻿# fanx-gate (}ticker) // PROPOSED ARCHITECTURE — UNVERIFIED
 
 > **Canonical System ID**: QMOOSA-0695  
 > **Component Role**: TESTS  
-> **Institutional Reality Gate Compliance**: 100/100 VERIFIED  
+> **Reality Gate Compliance**: NOT VERIFIED — existing Python tests are malformed  
 
 ---
+
+> **Evidence notice (2026-10-24):** The sections below are architectural goals, not verified implementations. Do not infer working QuickNode, x402, PQC, AI, tokenomics, or sanitizer integration without implementation-coupled tests and independent review. The draft fail-closed CI currently exposes corrupted Python tests.
 
 ## 1. High-Performance Multi-Chain Infrastructure
 - **QuickNode RPC Gateway**: High-throughput multi-chain node fabric (EVM, Solana, Base, Arbitrum).
